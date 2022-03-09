@@ -1,5 +1,6 @@
 import logging
 from argparse import ArgumentParser
+from pathlib import Path
 
 import numpy as np
 import torch
@@ -214,7 +215,7 @@ if __name__ == "__main__":
     parser = ArgumentParser("NYUv2 - Rotograd")
     parser.add_argument(
         "--data-path",
-        type=str,
+        type=Path,
         help="path to data",
     )
     parser.add_argument(
