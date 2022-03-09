@@ -1,5 +1,14 @@
 # RotoGrad for MTL
 
+
+## Installation
+
+```bash
+git clone https://github.com/AvivNavon/rotograd-mtl.git 
+cd rotograd-mtl
+pip install -e .
+```
+
 ## NYUv2
 
 Modification of the code in [CAGrad](https://github.com/Cranial-XIX/CAGrad) and [MTAN](https://github.com/lorenmt/mtan).
